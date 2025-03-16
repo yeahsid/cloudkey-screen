@@ -9,9 +9,9 @@ import (
 
 	build "github.com/jnovack/go-version"
 
-	"github.com/jnovack/cloudkey/images"
-	"github.com/jnovack/cloudkey/src/framebuffer"
-	"github.com/jnovack/cloudkey/src/leds"
+	"github.com/yeahsid/cloudkey-screen/images"
+	"github.com/yeahsid/cloudkey-screen/src/framebuffer"
+	"github.com/yeahsid/cloudkey-screen/src/leds"
 )
 
 var screens [2]draw.Image

@@ -1,3 +1,5 @@
 *.ttf
 .vscode
 cloudkey
+go.mod
+go.sum

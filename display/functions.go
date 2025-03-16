@@ -11,7 +11,7 @@ import (
 
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
-	"github.com/jnovack/cloudkey/fonts"
+	"github.com/yeahsid/cloudkey-screen/fonts"
 )
 
 // Colors from Black to White

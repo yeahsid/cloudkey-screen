@@ -8,8 +8,8 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/jnovack/cloudkey/images"
-	"github.com/jnovack/cloudkey/src/network"
+	"github.com/yeahsid/cloudkey-screen/images"
+	"github.com/yeahsid/cloudkey-screen/src/network"
 	"github.com/jnovack/speedtest"
 )
 

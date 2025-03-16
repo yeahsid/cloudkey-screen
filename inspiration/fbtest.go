@@ -19,7 +19,7 @@ import (
 	"os"
 	"time"
 
-	"framebuffer"
+	"github.com/bfanger/framebuffer"
 
 	"github.com/golang/freetype"
 	"golang.org/x/image/font"
