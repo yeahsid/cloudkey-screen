@@ -3,7 +3,6 @@ module github.com/yeahsid/cloudkey-screen
 go 1.24.1
 
 require (
-	github.com/bfanger/framebuffer v0.0.0-20250208220658-048b3aa10e2a
 	github.com/coreos/pkg v0.0.0-20240122114842-bbd7aa9bf6fb
 	github.com/dustin/go-humanize v1.0.1
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0

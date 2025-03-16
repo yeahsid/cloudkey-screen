@@ -1,5 +1,3 @@
-github.com/bfanger/framebuffer v0.0.0-20250208220658-048b3aa10e2a h1:pMDsW5sWm0CnlCz7TJvq1sRmBtdQJPYdEelfIIOrP0g=
-github.com/bfanger/framebuffer v0.0.0-20250208220658-048b3aa10e2a/go.mod h1:vrLRExJilR4dUIQt/pFeHdwd6YnayBEl/pc+UKAtMqs=
 github.com/coreos/pkg v0.0.0-20240122114842-bbd7aa9bf6fb h1:GIzvVQ9UkUlOhSDlqmrQAAAUd6R3E+caIisNEyWXvNE=
 github.com/coreos/pkg v0.0.0-20240122114842-bbd7aa9bf6fb/go.mod h1:E3G3o1h8I7cfcXa63jLwjI0eiQQMgzzUDFVpN/nH/eA=
 github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=

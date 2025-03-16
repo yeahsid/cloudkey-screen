@@ -16,7 +16,7 @@ import (
 )
 
 var tags = map[string]string{
-	"SYSLOG_IDENTIFIER": "cloudkey",
+	"SYSLOG_IDENTIFIER": "cloudkey-screen",
 }
 
 var opts display.CmdLineOpts
@@ -31,7 +31,7 @@ func init() {
 	flag.BoolVar(&opts.Demo, "demo", false, "use fake data for display only")
 	flag.StringVar(&opts.Pidfile, "pidfile", "/var/run/zeromon.pid", "pidfile")
 	flag.BoolVar(&opts.Version, "version", false, "print version and exit")
-	flagutil.SetFlagsFromEnv(flag.CommandLine, "CLOUDKEY")
+	flagutil.SetFlagsFromEnv(flag.CommandLine, "CLOUDKEY-SCREEN")
 
 	if opts.Version {
 		// already printed version
@@ -42,7 +42,7 @@ func init() {
 
 	// Setup Service
 	// https://fabianlee.org/2017/05/21/golang-running-a-go-binary-as-a-systemd-service-on-ubuntu-16-04/
-	fmt.Println("Starting cloudkey service")
+	fmt.Println("Starting cloudkey-screen service")
 	// setup signal catching
 	sigs := make(chan os.Signal, 1)
 	// catch all signals since not explicitly listing

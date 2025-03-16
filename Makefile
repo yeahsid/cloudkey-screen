@@ -10,9 +10,9 @@ all: build
 
 .PHONY: install
 install:
-	cp cloudkey.service /lib/systemd/system/cloudkey.service
-	cp cloudkey /usr/local/bin/cloudkey
+	cp cloudkey-screen.service /lib/systemd/system/cloudkey-screen.service
+	cp cloudkey-screen /usr/local/bin/cloudkey-screen
 
 .PHONY: build
 build:
-	GOOS=linux GOARCH=arm go build -ldflags $(GO_LDFLAGS) cloudkey.go
+	GOOS=linux GOARCH=arm go build -ldflags $(GO_LDFLAGS) cloudkey-screen.go

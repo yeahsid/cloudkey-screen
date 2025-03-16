@@ -3,14 +3,14 @@ Description=CloudKey UI
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/cloudkey
-EnvironmentFile=/etc/cloudkey.env
+ExecStart=/usr/local/bin/cloudkey-screen
+EnvironmentFile=/etc/cloudkey-screen.env
 Type=Simple
 Restart=on-failure
 RestartSec=5
 StartLimitIntervalSec=30
 StartLimitBurst=3
-PIDFile=/var/run/cloudkey.pid
+PIDFile=/var/run/cloudkey-screen.pid
 
 [Install]
 WantedBy=multi-user.target
