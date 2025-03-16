@@ -19,9 +19,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/bfanger/framebuffer"
-
 	"github.com/golang/freetype"
+	"github.com/yeahsid/cloudkey-screen/src/framebuffer"
 	"golang.org/x/image/font"
 )
 
